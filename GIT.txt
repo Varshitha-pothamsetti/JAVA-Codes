@@ -1,0 +1,34 @@
+TOPICS: Intro-->git-->branching-->merging-->github-->collab-->pull request-->stash-->rebase
+Commands:
+cd users/ -> to go another path
+ls -a -> gives all files
+ll--> hidden files
+ls -la ->meta data it shows
+rm -rf ->delete the dot git folder
+cd ~ ->home
+git commit -m "creating an file empty" -> to commit and pass msg
+                         -------------------------
+                                    (msg)a
+git config --list 
+q--> to quit
+nano(for file operations) --> to open a file(after this) ctrl o + enter (CTRL+enter file saved) ctrl+x to exit
+git log --> will give our commit historyg
+git log --oneline -->gives commit checking
+cat file1.txt -> gives the files
+git checkout 7f8b(give commit id here)- to switch b/w the ids.
+nano file1.txt
+git add . -> to add
+git cat-file -s 7f8b (give commit id here)-> gives size of the file
+git cat-file -t 7f8b  (") after execute it give a msg like commit 
+git cat-fille -p 7f86 ->it gives the parent commit information
+
+to fonfigute vs:-
+-git commit --global core.editor code -> to commit with vs code
+
+
+
+
+
+
+
+

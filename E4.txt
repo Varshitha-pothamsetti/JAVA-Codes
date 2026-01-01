@@ -1,0 +1,10 @@
+CREATE TABLE student1(
+    sid integer,
+    sname varchar2(50),
+    age integer,
+    address varchar(60)
+);
+insert into student1 values(3, 'satya', 22, 'delhi');
+update student1 set address = 'agra' where sid = 3;
+delete from student1 where sid = 3;
+select * from student1;
