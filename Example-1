@@ -1,0 +1,20 @@
+class Example1 {
+    public static void main(String[] args) {
+        int[] arr = { 10, 20, 30, 40, 50 };
+        for (int eachValue : arr) {
+            System.out.println(eachValue);
+        }
+        String[] country = { "India", "japan", "USA" };
+        for (String eachValue : country) {
+            System.out.println(eachValue);
+        }
+        char[] letters = { 'b', 'd' };
+        for (char eachValue : letters) {
+            System.out.println(eachValue);
+        }
+        boolean[] declare = { false, true, true, false };
+        for (boolean eachValue : declare) {
+            System.out.println(eachValue);
+      }
+   }
+}

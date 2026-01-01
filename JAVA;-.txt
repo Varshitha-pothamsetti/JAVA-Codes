@@ -1,0 +1,29 @@
+JAVA;-
+arrays in java
+1. java arrays are objects
+2. arrays are indexed
+3. arrays are mutable
+4. memory for arrays should be allocated using new keyboard
+5. index bounds check will take place. syntax of declaration an array:
+Java style:- datatype[] array_name = new datatype[size];
+int[] arr=new int[5]; // an array of 5 integers
+string[] names=new string[10]; // an array of 1-0 strings
+boolean[] values=new boolean[7]; // an  array of 7 bollean
+
+INITIALIZATION AN ARRAY:-
+int[] arr={10,20,30,40,50}
+arr.length--> number of elements in the array
+indexes range: 0 to n-1
+arr.length--> number of elements in the array
+
+SYNTAX of for_loop:-
+for(datatype loop_ variable_ name: array_name)
+Java Grand Test-1
+Basic Structure of java program
+DataTypes and varaibles in java
+Operators
+Conditional Statements
+Loops -for,while,break,continue
+Methods ->static /non static
+Arrays 
+Arrays class , two dimensionalarrays
